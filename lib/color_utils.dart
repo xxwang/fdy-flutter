@@ -12,4 +12,13 @@ class ColorUtils {
       Random().nextInt(256),
     );
   }
+
+  /// 使用十六进制颜色字符串创建Color
+  static Color fromHex(String hex) {
+    hex = hex.replaceAll('#', '');
+    if (hex.length == 6) {
+      hex = 'FF$hex';
+    }
+    return Color(int.parse(hex, radix: 16));
+  }
 }
