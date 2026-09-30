@@ -1,0 +1,21 @@
+name: fdy
+description: "Flutter开发工具"
+version: 0.0.1
+homepage:
+repository: https://github.com/xxwang/fdy-flutter
+
+environment:
+  sdk: ^3.13.4
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+
